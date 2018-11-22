@@ -1,0 +1,10 @@
+19,1:�esquina 1�:25:19,2:�esquina 2�
+20,1:�El museo�:33:19,1:�esquina 1�
+19,1:�esquina 1�:35:19,3:�esquina 3�
+20,2:�esquina 4�:35:19,3:�esquina 3�
+21,1:�esquina 5�:35:19,3:�esquina 3�
+22,1:�esquina 6�:35:19,3:�esquina 3�
+20,1:�El museo�:33:22,1:�esquina 6�
+20,1:�El museo�:33:21,1:�esquina 5�
+19,2:�esquina 2�:20:20,1:�El museo�
+20,2:�esquina 4�:10:19,1:�esquina 1�
