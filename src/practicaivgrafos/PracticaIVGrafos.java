@@ -62,8 +62,18 @@ public class PracticaIVGrafos {
         for (int i = 0; i < conjVert.size(); i++) {
             System.out.println(conjVert.get(i).toString());
         }
-
+        matrizAdyacencia matriz = new matrizAdyacencia();
+        matriz.setMatrizAdyac(matrizAdya);
+        matriz.setN(conjVert.size());
+        matriz.dfs();
         //solicita el punto de partida
+
+        matriz.matrizAdyacToLLdaAdyac(matrizAdya);
+        Conjunto<String> conjAux = new Conjunto<String>();
+        conjAux = matriz.prim();    
+        System.out.println("stop");
+        System.out.println("Ingrese la coordenada de partida, por ejemplo: 19,1");
+        int inicio = sc.nextInt();
     }
 
 //------------------Metodos de lectura del archivo------------------------------
